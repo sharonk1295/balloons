@@ -2,8 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import Navbar from "react-bootstrap/Navbar"
-import { Nav } from "react-bootstrap"
+import Jumbotron from "react-bootstrap/Jumbotron"
 
 // const Header = ({ siteTitle }) => (
 //   <header
@@ -37,19 +36,17 @@ import { Nav } from "react-bootstrap"
 const Header = ({ siteTitle }) => {
   return (  
     <div>
-      <Navbar collapseOnSelect bg="light" expand="lg">
-        <Navbar.Brand>
-          <Link to="/">Sunny Balloons</Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link><Link to="/">Home</Link></Nav.Link>
-            <Nav.Link><Link to="/page-2/">Gallery</Link></Nav.Link>
-            {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <Jumbotron>
+        <div>
+          <h1>Sunny Balloons</h1>
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/events">Events</Link>
+            <Link to="/contact">Contact</Link>
+          </nav>
+        </div>
+        
+      </Jumbotron>
     </div>  
   )
 }
