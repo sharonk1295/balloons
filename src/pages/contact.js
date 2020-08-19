@@ -24,7 +24,7 @@ const SecondPage = () => {
       {/* insert photo */}
       <h3>Sunny Kim</h3>
       <p>Enthusiastic about bringing life and joy to events, Sunny takes pride in her work and producing fun and cute decor for various occasions. She is especially experienced in decorating for kids' birthday parties and graduation celebrations. Combining her easy-going personality and passion for assembling creative decorations, Sunny is definitely someone you can depend on to bring your kids' parties to life!</p>
-      <h3>Thank you for dropping by, please enjoy a inspirational quote before you go!</h3>
+      <h3>Thank you for dropping by, please enjoy an inspirational quote before you go!</h3>
       {quotes ? 
         <div style={{textAlign: `center`}}>
           <h4>
