@@ -36,10 +36,12 @@ import headerStyles from "./header.module.css"
 
 const Header = ({ siteTitle }) => {
   return (  
-    <div>
+    <div style={{
+      width: `100%`
+    }}>
       <Jumbotron>
         <div className={headerStyles.header}>
-          <h1>Sunny Balloons</h1>
+          <h1 className={headerStyles.headerTitle}>Sunny Balloons</h1>
           <nav className={headerStyles.navbar}>
             <Link className={headerStyles.navItem} to="/">Home</Link>
             <Link className={headerStyles.navItem} to="/events">Events</Link>
