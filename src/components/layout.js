@@ -34,7 +34,8 @@ const Layout = ({ children }) => {
         bottom: `0`,
         // marginTop: `30vh`,
         width: `100%`,
-        textAlign: `center`
+        textAlign: `center`,
+        textShadow: `papayawhip 1px 1px`
       }}>
           Created by Sharon Kim © 2020 
       </footer>

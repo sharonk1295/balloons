@@ -7,7 +7,7 @@
     padding: 2rem 1.5rem;
     /* background-color: papayawhip; */
     background: rgb(242,238,80);
-    background: linear-gradient(90deg, rgba(255,251,128,1) 0%, rgba(252,167,195,1) 50%, rgba(103,179,244,1) 100%);
+    background: linear-gradient(90deg, rgba(255,251,128,0.5) 0%, rgba(252,167,195,0.5) 50%, rgba(103,179,244,0.5) 100%);
     display: flex;
     justify-content: space-between;
     /* height: 20vh; */
@@ -40,6 +40,9 @@
 }
 
 @media only screen and (max-width: 460px) {
+    .header {
+        padding: 1.4rem 1.5rem;
+    }
     .header-title {
         font-size: 2.5rem;
     }

@@ -1,0 +1,22 @@
+.bg-pic {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh
+}
+.button {
+    padding: 0.4rem 0.5em;
+    /* border-radius: 50%; */
+    background-color: rgba(255, 244, 213, 0.9);
+    color: rgb(19, 74, 99);
+    font-weight: bolder;
+    border: none;
+    outline: none;
+}
+.button:hover {
+    background-color: plum;
+    color: whitesmoke;
+    transform: translate(2px, 2px);
+}
