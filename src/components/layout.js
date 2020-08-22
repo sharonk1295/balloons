@@ -27,10 +27,16 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          Created by Sharon Kim © 2020 
-        </footer>
       </div>
+      <footer style={{
+        position: `fixed`,
+        left: `0`,
+        bottom: `0`,
+        width: `100%`,
+        textAlign: `center`
+      }}>
+          Created by Sharon Kim © 2020 
+      </footer>
     </>
   )
 }
