@@ -6,17 +6,31 @@
     background-repeat: no-repeat;
     min-height: 100vh
 }
+.main-text {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-text, .main-text h1, .main-text h3 {
+    font-family: 'Meera Inimai', sans-serif;
+}
 .button {
+    /* text-align: center; */
     padding: 0.4rem 0.5em;
+    padding-top: 0.6rem;
     /* border-radius: 50%; */
+    border-radius: 10%;
     background-color: rgba(255, 244, 213, 0.9);
     color: rgb(19, 74, 99);
     font-weight: bolder;
-    border: none;
+    border: wheat outset;
     outline: none;
 }
 .button:hover {
     background-color: plum;
+    border: rgb(196, 139, 196) inset;
     color: whitesmoke;
     transform: translate(2px, 2px);
 }
