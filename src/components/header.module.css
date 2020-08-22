@@ -18,6 +18,7 @@
     font-size: 4rem;
     text-decoration: underline;
     /* margin-top: 1rem */
+    color: black;
 }
 .navbar {
     width: 50vh;
@@ -28,6 +29,14 @@
     text-decoration: none;
     font-family: 'Mali', cursive;
     font-size: 1rem;
+    color: darkslategray
+}
+.nav-item:hover {
+    color: yellow;
+    text-decoration: yellow underline dashed;
+}
+.active-item {
+    text-decoration: teal double underline;
 }
 
 @media only screen and (max-width: 460px) {
