@@ -1,0 +1,9 @@
+.event-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px red solid;
+}
+.event-image {
+    width: 20%;
+    border: 0.5rem double plum;
+}

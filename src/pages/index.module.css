@@ -10,8 +10,8 @@
     margin-top: 7rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    /* align-items: right; */
 }
 .main-text, .main-text h1, .main-text h3 {
     font-family: 'Meera Inimai', sans-serif;
